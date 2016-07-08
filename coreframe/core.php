@@ -152,7 +152,7 @@ function input($key,$check_sql = 1) {
         return '';
     }
 }
-
+//设置 $global
 function set_globals() {
     if(isset($_GET)) {
         foreach ($_GET as $_key => $_value) {

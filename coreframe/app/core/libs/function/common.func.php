@@ -306,8 +306,10 @@ function URL(){
  */
 function url_unique($url){
 	$string = parse_url($url, PHP_URL_QUERY);
+	//print_r($string);
 	$string = explode('&', $string);
 	$new_array = array();
+
 	foreach ($string as $str) {
 		$str2 = explode('=', $str);
 		if (isset($str2[1])) {
@@ -316,6 +318,7 @@ function url_unique($url){
 			$new_array[$str2[0]] = '';
 		}
 	}
+
 	return http_build_query($new_array);
 }
 
@@ -401,6 +404,7 @@ function get_cache($filename, $dir = '_cache_'){
 	$file = get_cache_path($filename, $dir);;
 	if (!file_exists($file)) return '';
 	$data = include $file;
+	
 	return $data;
 }
 
