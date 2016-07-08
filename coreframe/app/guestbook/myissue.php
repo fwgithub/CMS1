@@ -72,7 +72,7 @@ class myissue extends WUZHI_foreground {
             $this->db->insert('guestbook', $formdata);
             }
         //$this->db->insert('guestbook', $formdata);
-        MSG('您的提问已经提交，我们的专家会尽快给您回复','?v=listing&cid=40&page=1');
+        MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
     public function bug() {
@@ -101,7 +101,7 @@ class myissue extends WUZHI_foreground {
             $this->db->insert('guestbook', $formdata);
         }
         //$this->db->insert('guestbook', $formdata);
-        MSG('您的提问已经提交，我们的专家会尽快给您回复','?v=listing&cid=40&page=1');
+        MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
     public function wenti() {
@@ -129,7 +129,7 @@ class myissue extends WUZHI_foreground {
             $this->db->insert('guestbook', $formdata);
         }
         //$this->db->insert('guestbook', $formdata);
-        MSG('您的提问已经提交，我们的专家会尽快给您回复','?v=listing&cid=40&page=1');
+        MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
     public function jbxx() {
@@ -145,7 +145,7 @@ class myissue extends WUZHI_foreground {
 
         //print_r($formdata); exit;
         $this->db->insert('guestbook', $formdata);
-        MSG('您的提问已经提交，我们的专家会尽快给您回复','?v=listing&cid=40&page=1');
+        MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
     public function jbwg() {
@@ -161,7 +161,7 @@ class myissue extends WUZHI_foreground {
 
         //print_r($formdata); exit;
         $this->db->insert('guestbook', $formdata);
-        MSG('您的提问已经提交，我们的专家会尽快给您回复','?v=listing&cid=40&page=1');
+        MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
     public function test() {
