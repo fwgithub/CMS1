@@ -52,6 +52,7 @@ class myissue extends WUZHI_foreground {
         $formdata['title'] = isset($GLOBALS['biaoti']) ? remove_xss($GLOBALS['biaoti']) : strcut($GLOBALS['yijian'],80);
         $formdata['content'] = $GLOBALS['yijian'];
         $formdata['yxqf'] = $GLOBALS['qufu'];
+        $formdata['player'] = $GLOBALS['player'];
         $formdata['type'] = $GLOBALS['type'];
         $formdata['addtime'] = SYS_TIME;
         $formdata['publisher'] = $this->memberinfo['username'];
@@ -81,6 +82,7 @@ class myissue extends WUZHI_foreground {
         $formdata['title'] = isset($GLOBALS['bug_biaoti']) ? remove_xss($GLOBALS['bug_biaoti']) : strcut($GLOBALS['bugms'],80);
         $formdata['content'] = $GLOBALS['bugms'];
         $formdata['yxqf'] = $GLOBALS['qufu'];
+        $formdata['player'] = $GLOBALS['player'];
         $formdata['type'] = $GLOBALS['type'];
         $formdata['addtime'] = SYS_TIME;
         $formdata['publisher'] = $this->memberinfo['username'];
@@ -109,6 +111,7 @@ class myissue extends WUZHI_foreground {
         $formdata['title'] = isset($GLOBALS['wenti_biaoti']) ? remove_xss($GLOBALS['wenti_biaoti']) : strcut($GLOBALS['wentims'],80);
         $formdata['content'] = $GLOBALS['wentims'];
         $formdata['yxqf'] = $GLOBALS['qufu'];
+        $formdata['player'] = $GLOBALS['player'];
         $formdata['type'] = $GLOBALS['type'];
         $formdata['addtime'] = SYS_TIME;
         $formdata['publisher'] = $this->memberinfo['username'];

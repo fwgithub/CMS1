@@ -79,6 +79,7 @@
           </div>
           <div class="form_input">
             <input type="text" name="bug_biaoti" class="biaoti" maxlength="20" autocomplete="off"/>
+              <input type="text" name="type"  style="display:none;" value="2"/>
           </div>
       
          </div>

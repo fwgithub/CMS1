@@ -84,6 +84,7 @@
                   </div>
                   <div class="form_input">
                     <input type="text" placeholder="被举报的玩家名" class="wjm" name="wjm" maxlength="15"/>
+                      <input type="text" name="type"  style="display:none;" value="4"/>
                   </div>      
                </div>    
                <div class="form_li youxiqufu">

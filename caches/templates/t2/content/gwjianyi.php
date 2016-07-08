@@ -78,6 +78,7 @@
                             </div>
                             <div class="form_input">
                                 <input type="text" name="biaoti" class="biaoti" maxlength="20" autocomplete="off"/>
+                                <input type="text" name="type"  style="display:none;" value="1"/>
                             </div>
 
                         </div>

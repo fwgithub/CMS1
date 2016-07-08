@@ -78,7 +78,8 @@
            <span>标题：</span>
           </div>
           <div class="form_input">
-            <input type="text" name="bug_biaoti" class="biaoti" maxlength="20" autocomplete="off"/>
+            <input type="text" name="wenti_biaoti" class="biaoti" maxlength="20" autocomplete="off"/>
+              <input type="text" name="type"  style="display:none;" value="3"/>
           </div>
       
          </div>
@@ -88,6 +89,7 @@
           </div>
           <div class="form_input">
            <input type="text" name="player" class="player" maxlength="20" autocomplete="off"/>
+
           </div>
       
          </div>
@@ -122,7 +124,7 @@
            <span>您的问题：</span>
           </div>
           <div class="form_input">
-          <textarea name="bugms" class="yj_box" maxlength="250" minlength="5" ></textarea>
+          <textarea name="wentims" class="yj_box" maxlength="250" minlength="5" ></textarea>
           </div>
       
          </div>
