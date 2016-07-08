@@ -1,7 +1,7 @@
 
 
 .container {
-  width: 1200px;
+  width: 1028px;
   max-width: none !important;
 }
 .bottom_links_box .row{
@@ -17,7 +17,7 @@
 /*---------------------------------------*/ 
 
 
-.login .verticalcenter .rightline{border-right: 1px solid #EBEBEB;background:url(../images/login_bg.png) no-repeat bottom left; float:left;width: 569px;}
+.login .verticalcenter .rightline{border-right: 1px solid #EBEBEB;}
 .login .verticalcenter .form-group{margin-bottom: 20px;}
 .login .verticalcenter .form-group label{color: #666;width: 100px;padding-top: 10px; margin-left:16px}
 .login .verticalcenter .form-group input{border: 1px solid #DDD;padding: 10px;margin-left: 0px; color:#000;}

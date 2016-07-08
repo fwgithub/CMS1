@@ -1,15 +1,11 @@
-<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><?php if(!isset($siteconfigs)) $siteconfigs=get_cache('siteconfigs'); include T("content","head",TPLID); ?>
+<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><?php if(!isset($siteconfigs)) $siteconfigs=get_cache('siteconfigs'); include T("content","loginhead",TPLID); ?>
 
 <link type="text/css" rel="stylesheet" href="<?php echo R;?>css/login_style.css">
 <div class="container login">
 	<div class="verticalcenter" style="background:none; ">
 		<div class="row">
        		 <div class="span5 rightline">
-				<div class="connectwebsite">
-                	<h3>欢迎您！</h3>
-                    <p>其实我们最主要想和大家说的不是这些功能，而是想告诉大家开发这个产品的初衷，这个产品的基因里就固化了她"开放与共同参与"的性格，今天发布的产品只是个基础是个平台，热诚的欢迎各位爱好者、开发者参与进来，后续我们会上线插件商城和模板商城，希望CMS不仅仅是个内容管理系统，更是一个可以为大家带来收益的平台。还是一个把自己的爱好转化为生产力的工具。</p><br/>
-					<h6>还不是注册会员，<a href="<?php echo WEBURL;?>index.php?m=member&v=register" style="font-size:16px; color:#C00">免费注册！</a></h6>
-				</div>
+
 			</div>
 			<div class="span7 ">
             <h4><span class="glyphicon glyphicon-user color_heyilan" aria-hidden="true"></span> 会员登录</h4>
@@ -86,4 +82,4 @@ $(function(){
 }
 </style>
 
-<?php if(!isset($siteconfigs)) $siteconfigs=get_cache('siteconfigs'); include T("content","foot",TPLID); ?>
+<?php if(!isset($siteconfigs)) $siteconfigs=get_cache('siteconfigs'); include T("content","loginfoot",TPLID); ?>

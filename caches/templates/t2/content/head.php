@@ -71,7 +71,7 @@ if (method_exists($content_template_parse, 'category')) {
         <div class="top_logo"><a href="<?php echo WEBURL;?>" title="返回首页"><img src="<?php echo R;?>t2/image/logo.png"></a></div>
         <div class="top_ad"><img src="http://placehold.it/450x75" width="450" height="75"></div>
         <div class="top_search">
-            <p>CMS咨询QQ：282198327</p>
+            <p>CMS咨询</p>
             <form class="navbar-form navbar-right" role="search" method="get" action="<?php echo WEBURL;?>index.php?f=search">
                 <input name="f" value="search" type="hidden">
                 <div class="form-group">

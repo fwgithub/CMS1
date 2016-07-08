@@ -4,7 +4,7 @@
     <div class="memberphoto"><a href="?m=member&f=index&v=profile"><img src="{avatar($this->uid, 180)}"></a></div>
     <div class="membername"><i class="memberusericon"></i><span>{$memberinfo['username']}</span><a href="?m=member&f=index&v=profile&tabid=3tab" class="edituser">{php echo $groups[$this->memberinfo['groupid']]['name'];}</a></div>
     <div class="memberblock">
-        <a href="?m=member&f=friend&v=listing" class="friends"><i class="friendsicon"></i>好友圈</a>
+
         <a href="?m=message&f=message&v=listing" class="message"><i class="membermessage"></i>私　信</a>
         <span style="position: absolute;margin-top: -10px;  margin-left:-60px;" class="hide" id="mymessage-tips"><img src="{R}member/image/new_font.gif"></span>
     </div>
@@ -80,8 +80,6 @@
     <ul>
         <li class="{if M=='member' && F=='index' && V=='profile'}menuactive{/if}"><a href="index.php?m=member&f=index&v=profile&acbar=2">账户信息</a></li>
         <li class="{if M=='member' && F=='index' && V=='edit_password'}menuactive{/if}"><a href="index.php?m=member&f=index&v=account_safe">账户安全</a></li>
-        <li class="{if M=='pay' && F=='payment' && V=='listing'}menuactive{/if}"><a href="index.php?m=pay&f=payment&v=listing&acbar=1">账户余额</a></li>
-        <li class="{if M=='credit' && F=='mycredit' && V=='listing'}menuactive{/if}"><a href="?m=credit&f=mycredit&v=listing">账户积分</a></li>
 
     </ul>
 
