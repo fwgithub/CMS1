@@ -167,14 +167,32 @@ class myissue extends WUZHI_foreground {
         MSG('您的提问已经提交，我们的专家会尽快给您回复','javascript:history.back()');
     }
 
+    public function logintime() {
+        $uid = $this->memberinfo['uid'];
+        $mid = $this->memberinfo['username'];
+        //$mr = $this->db->get_one('member',array('uid'=>$uid),'username');
+        $page = isset($GLOBALS['page']) ? intval($GLOBALS['page']) : 1;
+        $page = max($page,1);
+        $result = $this->db->get_list('logintime', array('uid'=>$uid), '*', 0, 50,$page,'id DESC');
+        $pages = $this->db->pages;
+        include T('guestbook','loginlisting');
+    }
+
     public function test() {
         //$siteid = get_cookie('siteid');
-        echo time();
+        //echo time();
         $urlclass = load_class('url','content','');
 
         $urls = $urlclass->showurl(array('id'=>1,'cid'=>2,'addtime'=>1467612759,'page'=>1));
-        echo $urls;
+        //$res = random_string(basic);
+        //$res = pages(12,1,20);
+        //$res = url_unique('http://192.168.1.119/wuzhicms/www/index.php?m=guestbook&f=myissue&v=test&page=1');
+        $res = remove_xss("select display_name from $Schema.members where user_name!='admin'");
+
+        echo $res;
     }
+
+
 
 
 }
