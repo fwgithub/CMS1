@@ -134,7 +134,7 @@
                     <a href="index.php?v=listing&cid=55&page=1" target="_self" title="举报信息">举报信息</a>
                 </div>
                 <div class="meun_btn kefu">
-                    <a href="index.php?v=listing&cid=56&page=1" target="_self" title="在线客服">在线客服</a>
+                    <a href="http://192.168.1.119/welive/demo.html" target="_self" title="在线客服">在线客服</a>
                 </div>
             </div>
             <div class="left_btom">

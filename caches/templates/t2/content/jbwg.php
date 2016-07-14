@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="head_meun">
-                <a href="index.php?v=listing&cid=45&page=1" target="_self">在线客服</a>
+                <a href="#" target="_self">在线客服</a>
             </div>
             <div class="head_right">
             </div>

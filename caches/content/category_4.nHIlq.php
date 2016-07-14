@@ -13,7 +13,7 @@
   'modelid' => '6',
   'sort' => '0',
   'domain' => '',
-  'url' => '/wuzhicms/www//index.php?v=listing&cid=4&page=1',
+  'url' => '/zlyl/www//index.php?v=listing&cid=4&page=1',
   'thumb' => '',
   'icon' => '',
   'workflowid' => '0',

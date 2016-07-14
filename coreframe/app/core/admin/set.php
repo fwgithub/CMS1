@@ -121,6 +121,7 @@ class set extends WUZHI_admin {
             }
             $config = get_cache('sendmail');
             $password = decode($config['password']);
+            //print_r($password);
             //load_function('sendmail');
             $subject = '这里是一封来自 wuzhicms 的测试邮件';
             $message = "感谢您选择wuzhicms，看到该内容，说明您已经配置好邮件发送服务器！";

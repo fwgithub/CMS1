@@ -14,8 +14,8 @@
             <div class="typesbox" style="margin-left:32px">
             	<ul class="nav nav-tabs">
               <li role="presentation" class="stypeclass active"><a href="#"><span onclick="ch_type(10,this);">个人账户注册</span></a></li>
-              <li role="presentation" class="stypeclass"><a href="#"><span onclick="ch_type(11,this);">企业账户注册</span></a></li>
-              <li role="presentation" class="stypeclass" ><a href="#"><span onclick="ch_type(23,this);" id="modelid23">机构账户注册</span></a></li>
+              <!--<li role="presentation" class="stypeclass"><a href="#"><span onclick="ch_type(11,this);">企业账户注册</span></a></li>
+              <li role="presentation" class="stypeclass" ><a href="#"><span onclick="ch_type(23,this);" id="modelid23">机构账户注册</span></a></li>-->
             </ul>
             </div>
 

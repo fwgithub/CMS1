@@ -130,24 +130,7 @@
                 <div class="panel-body" id="panel-bodys">
                     <table class="table table-hover personal-task">
                         <tbody>
-                        <tr>
-                            <td>
-                                <strong>架构设计</strong>： 王参加
-                                <a href="http://www.wuzhicms.com" target="_blank">[北京五指互联科技有限公司版权所有]</a>
 
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td><strong>开发团队</strong>： 屠正武、吴灵辉、汪勇 、王参加、赵宏伟、渠雁云、翟党伟、郝川 </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <strong>界面设计</strong>： <a href="http://www.pxgrids.com/" target="_blank">像素格工作室</a>
-                            </td>
-                            <td></td>
-                        </tr>
                         <tr>
                             <td><strong>环境信息</strong>：<a data-toggle="modal" href="#chartsetting">【查看基本信息】</a>
                                 <a href="index.php?m=core&f=index&v=phpinfo<?php echo $this->su();?>" target="_blank" >【点击查看 phpinfo()】</a><br/>
@@ -179,14 +162,7 @@
 
                             </td>
                             <td></td>
-                        </tr>
-                        <?php
-                        $li1 = '试用型 － <a href="http://www.wuzhicms.com/buy/" target="_blank">点击购买</a>';
-                        $li3 = '<a href="http://www.wuzhicms.com/buy/" target="_blank"> 没有技术服务，点击这里购买</a>';
-                        $li2 = '';
-                        $li5 = '个人用户永久免费，企业用户免费使用30天';
-                        ?>
-                        <tr>
+
                             <td>
                                 <strong>系统信息</strong>： CMS v<?php echo VERSION.' (简体中文'.CHARSET.')';?>
                                 <a href="http://www.wuzhicms.com/update/lastest/" target="_blank">【查看最新版本】</a>
@@ -222,13 +198,7 @@
                             </td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td>
-                                <strong>免费技术论坛支持</strong>：
-                                <a href="http://bbs.wuzhicms.com" target="_blank">点击进入咨询</a>
-                            </td>
-                            <td></td>
-                        </tr>
+                       
                         </tbody>
                     </table>
                 </div>

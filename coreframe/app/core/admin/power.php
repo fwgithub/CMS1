@@ -186,7 +186,7 @@ class power extends WUZHI_admin {
     }
 
     /**
-     * 删除管理员
+     * 删除管理员file_put_contents( );
      */
     public function delete() {
         $uid = isset($GLOBALS['uid']) ? intval($GLOBALS['uid']) : 0;

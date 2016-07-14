@@ -28,11 +28,15 @@
       <div class="meun_btn">
       	<a href="index.php?v=listing&cid=47&page=1" target="_self">举报信息</a>
       </div>
-      <div class="meun_btn">
-          <!--<a onclick="setIsinvited();hz6d_is_exists('window.open%28%22http%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10136880%26style%3D1%26language%3Dcn%26charset%3Dgbk%26lytype%3D0%26referer%3D%7Bhz6d_referer%7D%26keyword%3Dhttp%253A%252F%252Flocalhost%252Fwuzhicms%252Fwww%252F%252Findex.php%252F&tfrom=1%26tpl%3Dcrystal_blue%26kf%3D2682771419%40qq.com%26zdkf_type%3D1%26kflist%3Doff%22%2C%22_blank%22%2C%22height%3D473%2Cwidth%3D703%2Ctop%3D200%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno%22%29','2682771419@qq.com');return false;" target="_self">在线客服</a>-->
-         <!--<a onclick="setIsinvited();window.open(#liyc#http%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10136900%26style%3D1%26language%3Dcn%26lytype%3D0%26charset%3DGBK%26kflist%3Doff%26kf%3D%26zdkf_type%3D1%26referer%3Dhttp%253A%252F%252Flocalhost%252FPHPWebSocket%252Findex.html%26keyword%3D%26tfrom%3D1%26tpl%3Dcrystal_blue#liyc#%2C%20#liyc#_blank#liyc#%2C%20#liyc#height%3D473%2Cwidth%3D703%2Ctop%3D200%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno#liyc#);return false;" target="_self">在线客服</a>-->
+        <div class="meun_btn">
+            <a href="/welive/demo.html" target="_self">在线客服</a>
+        </div>
+      <!--<div class="meun_btn">
+          &lt;!&ndash;<a onclick="setIsinvited();hz6d_is_exists('window.open%28%22http%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10136880%26style%3D1%26language%3Dcn%26charset%3Dgbk%26lytype%3D0%26referer%3D%7Bhz6d_referer%7D%26keyword%3Dhttp%253A%252F%252Flocalhost%252Fwuzhicms%252Fwww%252F%252Findex.php%252F&tfrom=1%26tpl%3Dcrystal_blue%26kf%3D2682771419%40qq.com%26zdkf_type%3D1%26kflist%3Doff%22%2C%22_blank%22%2C%22height%3D473%2Cwidth%3D703%2Ctop%3D200%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno%22%29','2682771419@qq.com');return false;" target="_self">在线客服</a>&ndash;&gt;
+         &lt;!&ndash;<a onclick="setIsinvited();window.open(#liyc#http%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10136900%26style%3D1%26language%3Dcn%26lytype%3D0%26charset%3DGBK%26kflist%3Doff%26kf%3D%26zdkf_type%3D1%26referer%3Dhttp%253A%252F%252Flocalhost%252FPHPWebSocket%252Findex.html%26keyword%3D%26tfrom%3D1%26tpl%3Dcrystal_blue#liyc#%2C%20#liyc#_blank#liyc#%2C%20#liyc#height%3D473%2Cwidth%3D703%2Ctop%3D200%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno#liyc#);return false;" target="_self">在线客服</a>&ndash;&gt;
           <a onclick="pp=window.open('http://localhost/welive/enter.php?uid=3&amp;code=YjUxZVc2RzRtd3hTQ0MwK2Q3WGlITm9sSy9xYjQrcWpOM3M1WWpJN3VQU3RZc3Y3RlpscXB2R2w=&amp;vvckey=yn4QdztM&amp;url=aHR0cDovL2xvY2FsaG9zdC9XZUxpdmUvZGVtby5odG1s','newWin','height=518,width=658,top=200,left=200,status=yes,toolbar=no,menubar=no,resizable=no,scrollbars=no,location=no,titlebar=no');pp.focus();return false;" title="">在线客服</a>
-      </div>
+      </div>-->
+
     </div>
 
   </div>
