@@ -2,19 +2,19 @@
 <script type="text/javascript">
     function check(form) {
 
-        if(form.biaoti.value=='') {
+        if(form.wenti_biaoti.value=='') {
             alert("请输入标题!");
-            form.biaoti.focus();
+            form.wenti_biaoti.focus();
             return false;
         }
-        if(form.yijian.value==''){
-            alert("请输入意见!");
-            form.yijian.focus();
+        if(form.player.value==''){
+            alert("请输入名字!");
+            form.player.focus();
             return false;
         }
-        if(form.yi_sc.value==''){
+        if(form.bug_sc.value==''){
             alert("请上传文件!");
-            form.yi_sc.focus();
+            form.bug_sc.focus();
             return false;
         }
         return true;
@@ -137,7 +137,7 @@
           </div>
       
          </div>
-         <input type="submit" class="tijiao_btn" value="提交问题"/>
+         <input type="submit" class="tijiao_btn" value="提交问题" onclick="return check(this.form)"/>
       </form>
       
       

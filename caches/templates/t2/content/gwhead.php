@@ -71,5 +71,5 @@
         <a href="index.php?v=listing&cid=53&page=1">BUG反馈</a>
         <a href="index.php?v=listing&cid=54&page=1">问题专区</a>
         <a href="index.php?v=listing&cid=55&page=1">举报信息</a>
-        <a href="index.php?v=listing&cid=52&page=1" style="border:none;" class="all_btm">在线客服</a>
+        <a href="index.php?v=listing&cid=45&page=1" style="border:none;" class="all_btm">在线客服</a>
     </div>
