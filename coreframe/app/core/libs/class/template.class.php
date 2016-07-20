@@ -140,7 +140,7 @@ final class WUZHI_template {
 		$str .= "?>\r\n";
 		return $str;
 	}
-
+	//这个是{wz:content action="listing" pagesize="6" order="id DESC" cid="6"}的方法
 	private static function syntax_parse($mat, $data = ''){
 		if (!is_array($mat)) {
 			$m = $mat;
