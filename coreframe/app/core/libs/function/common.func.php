@@ -74,7 +74,7 @@ function L($language = 'empty language', $pars = array(), $apps = ''){
  *
  * @param $m        模块名称
  * @param $template 模版名称
- * @param $style    模版风格
+ * @param $style    模版风格 把html缓存成php
  * @return string
  */
 function T($m = 'content', $template = 'index', $style = 'default'){
@@ -100,6 +100,7 @@ function T($m = 'content', $template = 'index', $style = 'default'){
 					exit('Template does not exists:' . $tpl_file);
 				}
 			} elseif (AUTO_CACHE_TPL) {
+				//把html缓存成php
 				$c_template = load_class('template');
 				$c_template->cache_template($m, $tmp, $style);
 			}
